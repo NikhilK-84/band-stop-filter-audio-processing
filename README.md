@@ -1,4 +1,4 @@
-# band-stop-filter-audio-processing
+# band-stop-filter-audio-processing-project
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
