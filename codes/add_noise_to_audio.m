@@ -24,4 +24,4 @@ modifiedAudio = modifiedAudio / max(abs(modifiedAudio));
 
 % Play the modified audio
 sound(modifiedAudio, f);
-audiowrite("JazzTrioNoisy.wav",modifiedAudio, f);
+audiowrite("audio/JazzTrioNoisy.wav", modifiedAudio, f);
