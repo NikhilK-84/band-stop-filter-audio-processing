@@ -16,20 +16,28 @@ This project demonstrates the application of a band-stop filter for audio proces
 3.	To compare the graphs of input, and output audio signals obtained from their frequency and time response.
 
 ## Files and Directories
-band-stop-filter-audio-processing
-│
-├── Band Stop Filter Report.pdf # Detailed report on the band-stop filter implementation
-├── README.md # Project documentation
-├── LICENSE # License information
-│
-├── codes # Directory containing MATLAB code and audio files
-│ ├── add_noise_to_audio.m # MATLAB script to add noise to audio files
-│ ├── band_reject_filter_code.m # MATLAB script implementing the band-stop filter
-│ ├── audio # Directory containing audio files
-│ │ ├── JazzTrio.wav # Original jazz trio audio file
-│ │ ├── JazzTrioNoisy.wav # Jazz trio audio file with added noise
-│ │ ├── Harpsichord_Melody.mp3 (harpsichord melody audio file)
-│ │ └── White_Noise.wav # White noise audio file
+band-stop-filter-audio-processing <br>
+│ <br>
+├── Band Stop Filter Report.pdf  (detailed report on the band-stop filter implementation) <br>
+├── README.md  (project documentation) <br>
+├── LICENSE  (license information) <br>
+│ <br>
+├── scripts  (directory containing MATLAB code and audio files) <br>
+│ ├── add_noise_to_audio.m  (MATLAB script to add noise to audio files) <br>
+│ ├── band_reject_filter_code.m  (MATLAB script implementing the band-stop filter) <br>
+│ ├── audio  (directory containing audio files) <br>
+│ │ ├── JazzTrio.wav  (original jazz trio audio file) <br>
+│ │ ├── JazzTrioNoisy.wav  (jazz trio audio file with added noise) <br>
+│ │ ├── Harpsichord_Melody.mp3  (harpsichord melody audio file) <br>
+│ │ └── White_Noise.wav  (white noise audio file) <br>
 
-## Files and Directories
+## Requirements
+- MATLAB or Octave software
+- Audio Processing Toolbox (for MATLAB users)
 
+## Instructions for using Scripts
+### add_noise_to_audio.m
+* This script can be used to add noise to an audio file. The noise here consists of sinusoidal signals with desired frequencies that the user wants to introduce into the audio.
+* The code applies noise to the JazzTrio.wav file to generate a noisy audio file named JazzTrioNoisy.wav.
+### band_reject_filter_code.m
+* 
